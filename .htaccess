@@ -1,6 +1,0 @@
-AddHandler application/x-httpd-php56 .php
-Options -Indexes
-<IfModule mod_authz_core.c>
-  Require all granted
-</IfModule>
-Header set X-Robots-Tag "noindex, nofollow"
